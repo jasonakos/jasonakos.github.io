@@ -1,0 +1,281 @@
+html,
+body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.navbar.nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
+
+
+.menucustom li{
+    font-size:25px;
+    color: white;
+    font-family: Sail;
+    font-weight: normal;
+	font-style: normal;
+}
+
+.dropdown-menu a {
+    color: aqua;
+}
+
+.nav.navbar-nav.navbar-center a:hover {
+    color: #2a2a2a;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: rgba(65, 69, 71, 0.2);
+}
+
+.dropdown-menu a{
+    color: #FFFFFF !important;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+.navbar.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+
+@media all and (max-width: 1200px) {
+    /* screen size until 1200px */
+    .myH2 {
+        font-size: 2em;
+        /* 1.5x default size */
+    }
+    .button-space-fb-bottom{
+        margin-bottom: 5px;  
+    }
+    .button-space-fb-right{
+        margin-right: 60px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    /* screen size until 1000px */
+    .myH2 {
+        font-size: 2em;
+        /* 1.2x default size */
+    }
+    .collapsing, .in 
+    {
+        background: rgba(0, 0, 0, .5);
+    }
+    .button-space-fb-bottom{
+        margin-bottom: 60px;  
+    }
+    .button-space-fb-right{
+        margin-right: 5px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    /* screen size until 500px */
+    .mainpageimgrow {
+        margin-top: 0px;
+        /* 0.8x default size */
+    }
+    .collapsing, .in 
+    {
+        background: rgba(0, 0, 0, .5);
+    }
+    .button-space-fb-bottom{
+        margin-bottom: 60px;  
+    }
+    .button-space-fb-right{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .mobile-space {
+        margin-left: 30px;
+    }
+    .button-space-fb-right{
+    margin-right: 60px;
+    }
+    .button-space-fb-bottom{
+        margin-bottom: 5px;  
+    }
+    .button-space-fb-right{
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile-space {
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    .button-space-fb-bottom{
+        margin-bottom: 60px;  
+    }
+    .button-space-fb-right{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+/*
+    .mobile-space {
+        margin-top: 10px;
+    }
+*/
+    .portraitimgrow {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .button-space-fb-bottom{
+        margin-bottom: 60px;  
+    }
+    .button-space-fb-right{
+        margin-right: 5px;
+    }
+}
+
+.containertitlelogo .img-responsive {
+    display: block;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
+
+
+.containerportfolioimg .img-responsive{
+    display: block;
+    width: 450px;
+    height: auto;
+    max-height: 100%;
+}
+
+
+h2 {
+    margin-top: 1.3em;
+    text-align: center;
+    color: white;
+    font-family: Sail;
+    font-weight: normal;
+	font-style: normal;
+}
+
+.imgwrapper {
+    width: auto;
+}
+
+
+b,
+strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+.imgsize {
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.center-cropped {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.center-croppedportfolio {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.imgopacity:hover {
+    opacity: 0.5;
+}
+
+.imgtransition {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mainpageimgrow {
+    margin-top: 3px;
+}
+
+.portraitimgrow {
+    margin-top: 30px;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.button-bottom
+{
+    position: fixed;
+}
+.button-right-corner
+{
+    position: fixed;
+    right:    0;
+    bottom:   0;
+}
+.button-space-insta-bottom{
+    margin-bottom: 5px;  
+}
+
+
+.button-space-insta-right{
+    margin-right: 5px;
+}
+
+
+@font-face {
+	font-family: Sail;
+	src: url('fonts/Sail-Regular.eot');
+	src: url('fonts/Sail-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Sail-Regular.woff2') format('woff2'),
+		url('fonts/Sail-Regular.woff') format('woff'),
+		url('fonts/Sail-Regular.ttf') format('truetype'),
+		url('fonts/Sail-Regular.svg#Sail-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
