@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jason Konteos</title>
+    <meta name="description" content="">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body background="images/background.png">
+    <div class="container">
+        <div class="row">
+            <div align="center">
+                <div class="containertitlelogo"><a href="index.html"><img src="images/logo.png" class="img-responsive" alt="Responsive image"></a></div>
+                <div class="navbar navbar-inverse navbar-static-top">
+                    <div class="container">
+                        <div class=".navbar-header">
+                            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        </div>
+                        <div class="collapse navbar-collapse navHeaderCollapse">
+                            <ul class="nav navbar-nav navbar-center menucustom">
+                                <!--portrait-->
+                                <li><a href="portrait.html">portrait</a></li>
+                                <!--exterior/interior-->
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">exterior/interior</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="emporiocafe.html">emporio cafe</a></li>
+                                        <li><a href="icafebar.html">i cafe bar</a></li>
+                                        <li><a href="collage.html">collage</a></li>
+                                    </ul>
+                                </li>
+                                <!--still life-->
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">still life</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="food.html">food</a></li>
+                                        <li><a href="foreshop.html">for e-shop</a></li>
+                                    </ul>
+                                </li>
+                                <!--weddings/christenings-->
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">weddings/christenings</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="wedding.html">wedding</a></li>
+                                        <li><a href="baptism.html">baptism</a></li>
+                                    </ul>
+                                </li>
+                                <!--events-->
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">events</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="concert.html">concert</a></li>
+                                        <li><a href="theater.html">theater</a></li>
+                                    </ul>
+                                </li>
+                                <!--free time-->
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">free time</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="travelandlandscapes.html">travel &amp; landscapes</a></li>
+                                        <li><a href="walkinathens.html">walk in athens</a></li>
+                                        <li><a href="abandonedplaces.html">abandoned places</a></li>
+                                        <li><a href="blackandwhite.html">black &amp; white</a></li>
+                                        <li><a href="instagram.html">instragram</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#contactModal" data-toggle="modal">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="row mainpageimgrow"> 
+                    <a href="images/home1.png" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition imgmargin" src="images/home1.png"></a>
+                    <a href="images/home2.png" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition imgmargin" src="images/home2.png"></a>
+                    <a href="images/home3.webp" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition imgmargin" src="images/home3.webp"></a>
+                </div>
+                <div class="row mainpageimgrow"> 
+                    <a href="images/home4.png" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition " src="images/home4.png"> </a>
+                    <a href="images/home5.webp" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition" src="images/home5.webp"></a> 
+                </div>
+                <div class="row mainpageimgrow"> 
+                    <a href="images/home6.webp" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition" src="images/home6.webp"></a>
+                    <a href="images/home7.webp" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition" src="images/home7.webp"></a>
+                    <a href="images/home8.webp" data-lightbox="homegallery"><img class="center-cropped imgopacity imgtransition" src="images/home8.webp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+      <!-- Modal -->
+        <div id="contactModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Contact</h4>
+                    </div>
+                    <div class="modal-body">
+                                <form class="form-horizontal" name="commentform" method="post" action="send_form_email.php">
+                                        <div class="form-group">
+                                            <label for="InputName" class="col-lg-2 control-label">Name</label>
+                                            <div class="col-lg-10">
+                                                <input type="text" class="form-control" name="first_name" id="first_name"  required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="InputEmail" class="col-lg-2 control-label">Email</label>
+                                            <div class="col-lg-10">
+                                                <input type="email" class="form-control" id="email" name="email"  required  >
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="InputMessage" class="col-lg-2 control-label">Message</label>
+                                            <div class="col-lg-10">
+                                                <textarea name="comments" id="comments" class="form-control" rows="8" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <input type="submit" name="submit" id="submit" value="Send" class="btn btn-info pull-right">
+                                    </div>
+                                </form>
+                    </div><!-- End of Modal body -->
+                </div><!-- End of Modal content -->
+            </div><!-- End of Modal dialog -->
+        </div><!-- End of Modal -->
+    <div class="button-bottom">
+        <div class="row">
+            <a href="https://www.facebook.com/jasonkonteos.gr" class="button button-right-corner button-space-fb-bottom button-space-fb-right img-responsive"><img class="imgsize imgopacity imgtransition" src="images/fb.png"></a>
+            <a href="https://www.instagram.com/jasonbam" class="button button-right-corner button-space-insta-bottom button-space-insta-right img-responsive"><img class="imgsize imgopacity imgtransition" src="images/insta.png"></a>
+        </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+</body>
+</html>
