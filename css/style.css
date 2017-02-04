@@ -59,39 +59,6 @@ h6 {
     border: none;
 }
 
-@media (min-width:768px) { 
- .navbar > .container {
-    text-align: center;
- }
- .navbar-header {
-    float: none;
-    display: inline-block;
- }
- .navbar-brand {
-    float: none;
-    display: inline-block;
- }
- .navbar .navbar-nav {
-    float: none;
-    display: inline-block;
-    clear: none;
- }
- .navbar .navbar-nav > li {
-    float: none;
-    display: inline-block;
- }
- .navbar .navbar-nav > li li {
-    text-align: left
- }
- add id of centerednav on the collapse or it won't work
- .collapse.navbar-collapse#centerednav {
-    float: none;
-    display: inline-block!important;
-    width: auto;
-    clear: none;
- }
-}
-
 @media all and (max-width: 1200px) {
     /* screen size until 1200px */
     .myH2 {
@@ -172,9 +139,11 @@ h6 {
 }
 
 @media screen and (max-width: 500px) {
+/*
     .mobile-space {
         margin-top: 10px;
     }
+*/
     .portraitimgrow {
     margin-left: 10px;
     margin-right: 10px;
@@ -301,12 +270,12 @@ samp {
 
 @font-face {
 	font-family: Sail;
-	src: url('fonts/Sail-Regular.eot');
-	src: url('fonts/Sail-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Sail-Regular.woff2') format('woff2'),
-		url('fonts/Sail-Regular.woff') format('woff'),
-		url('fonts/Sail-Regular.ttf') format('truetype'),
-		url('fonts/Sail-Regular.svg#Sail-Regular') format('svg');
+	src: url('/fonts/Sail-Regular.eot');
+	src: url('/fonts/Sail-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Sail-Regular.woff2') format('woff2'),
+		url('/fonts/Sail-Regular.woff') format('woff'),
+		url('/fonts/Sail-Regular.ttf') format('truetype'),
+		url('/fonts/Sail-Regular.svg#Sail-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
